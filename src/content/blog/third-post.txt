@@ -18,8 +18,8 @@ Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperd
 
 <a class="read_more" onclick="toggleReadMore()">Subscribe</a>
 <div class="read_more-content" id="readMoreContent">
-<!---<a class="read_more" href="https://pul.ly/b/317368">Checkout</a>
-<!---<a class="read_more" href="https://www.wishtender.com/racemedia/?item=65972ce9c87e980002868937">Wishtender</a>
+<a class="read_more" href="https://pul.ly/b/317368">Checkout</a>
+<a class="read_more" href="https://www.wishtender.com/racemedia/?item=65972ce9c87e980002868937">Wishtender</a>
 <a class="read_more" href="#">Link 3</a>
 </div>
 </div>
