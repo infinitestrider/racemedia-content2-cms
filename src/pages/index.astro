@@ -1,0 +1,35 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Welcome!</h1>
+			<p>
+				Welcome to the official <a href="https://raceplay.site/">Raceplay.site</a> Content Page
+			</p>
+			<p>
+				You will have received a downloadable PDF file from the purchase.<br>
+				We call it a token.<br>
+				Always refer to that token.
+				Though the site is ever changing. We also encourage you to not leak any of the content. the website almost shut down due to compromise of that degree, please be empathetic to the cause, we never wanted to switch to Pay-Per VIew, but we had too to keep everything flowing, but gladly we are back to subscription based, meaning you see the Entire library! for $20-$30 a month. We appreciate you guys keeping the vision alive.
+			</p>
+			<p>
+				Our main social medias are <a href="https://twitter.com/RaceplayVideos"
+					>Twitter
+				</a> and <a href="https://t.me/RaceplayClips">join us on Telegram</a> to ask questions.
+			</p>
+			
+		</main>
+		<Footer />
+	</body>
+</html>
